@@ -1,0 +1,52 @@
+{
+    "allergens": [
+        {
+            "id": 1,
+            "name": "gluten"
+        },
+        {
+            "id":2,
+            "name":"yeast"
+        },
+        {
+            "id":3,
+            "name":"casein"
+        },
+        {
+            "id":4,
+            "name":"crustacea"
+        },
+        {
+            "id":5,
+            "name":"egg"
+        },
+        {
+            "id":6,
+            "name":"fish"
+        },
+        {
+            "id":7,
+            "name":"sesame"
+        },
+        {
+            "id":8,
+            "name":"soy"
+        },
+        {
+            "id":9,
+            "name":"sulphites"
+        },
+        {
+            "id":10,
+            "name":"mustard"
+        },
+        {
+            "id":11,
+            "name":"celery"
+        },
+        {
+            "id":12,
+            "name":"corn"
+        }
+    ]
+}

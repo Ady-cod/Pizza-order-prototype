@@ -1,0 +1,53 @@
+{
+    "pizza":[
+        {
+            "id": 1,
+            "name": "Veggie & Mozzarella",
+            "ingredients": [ "Tomato sauce", "mozzarella", "mushrooms", "black olives","pepper","corn","tomatoes" ],
+            "price": 25,
+            "allergens": [1,2,3,12]
+        },
+        {
+            "id": 2,
+            "name": "Quattro Formaggi",
+            "ingredients": [ "Mozzarella", "Cheddar", "Emmentaler", "moldy cheese","oregano"],
+            "price": 33,
+            "allergens": [1,2,3,5]
+        },
+        {
+            "id": 3,
+            "name": "Pizza Mediteraneo",
+            "ingredients": [ "Bazic pizza (thin crust)", "salted cheese", "dried tomatoes", "green and black olives","onion","oregano"],
+            "price": 34,
+            "allergens": [1,2,3,11]
+        },
+        {
+            "id": 4,
+            "name": "Margherita",
+            "ingredients": [ "Bazic pizza", "tomato sauce", "Mozzarella"],
+            "price": 19,
+            "allergens": [1,2,5]
+        },
+        {
+            "id": 5,
+            "name": "Pizza Light",
+            "ingredients": [ "Bazic pizza + pepper", "onion", "tomatoes","corn","mushrooms"],
+            "price": 32,
+            "allergens": [2,12]
+        },
+        {
+            "id": 6,
+            "name": "Pizza Hot Cheese",
+            "ingredients": [ "Bazic pizza + Cheddar", "salted cheese", "tomatoes","hot peppers","oregano"],
+            "price": 31,
+            "allergens": [1,2,3,5]
+        },
+        {
+            "id": 7,
+            "name": "Pizza Egeea",
+            "ingredients": [ "Bazic pizza (thin crust, sweet chilli sauce) + salted cheese", "dried tomatoes", "onion","corn","mushrooms"],
+            "price": 34,
+            "allergens": [1,2,3,5]
+        }
+    ]
+}

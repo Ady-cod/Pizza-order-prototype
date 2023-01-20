@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form order</title>
+    <link rel="stylesheet" href="/public/order.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="inputs" class="container">
+        <form action="/api/order" method="POST">
+          <h1>Order delivery details:</h1>
+          <fieldset>
+            <label for="firstname">First Name:</label>
+            <input
+              id="firstname"
+              type="text"
+              name="firstname"
+              placeholder="Your first name"
+              required
+            /><br />
+          </fieldset>
+          <fieldset>
+            <label for="lastname">Last Name:</label>
+            <input
+              id="lastname"
+              type="text"
+              name="lastname"
+              placeholder="Your last name"
+              required
+            />
+            <br />
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="email.address@success.com"
+              required
+            /><br />
+          </fieldset>
+          <fieldset>
+            <label for="street">Street:</label>
+            <input
+              id="street"
+              type="address"
+              name="street"
+              placeholder="Your street name"
+              required
+            /><br />
+          </fieldset>
+          <fieldset>
+            <label for="city">City:</label>
+            <input
+              id="city"
+              type="address"
+              name="city"
+              placeholder="Your city name"
+              required
+            /><br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <button id="submit" value="submit">SUBMIT</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+  background-color: rgb(255, 70, 70);
+  background-image: "/img/margherita.jpg";
+}
+
+form {
+  
+    height: 100%; /* Form will take up 100% of the viewport height */
+    width: 50%; /* Form will take up 50% of the viewport width */
+    margin: 0 auto; /* Center form horizontally */
+    padding: 1em; /* Add padding to the form */
+    box-sizing: border-box; /* The padding and border will be included in the total width and height of the form */
+    color: #fff;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="address"] {
+  width: 100%;
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  background-color: rgb(78, 108, 243);
+  color: white;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
