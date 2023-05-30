@@ -1,7 +1,4 @@
 
-![Pizza Project print screen](https://github.com/CodecoolGlobal/pizza-order-prototype-javascript-Ady-cod/assets/113712378/e44422bc-9d87-4246-b890-f565e1e7c8ea)
-
-
 # Pizza Order Prototype
 
 The Pizza Order Prototype is a full-stack JavaScript application, engineered to streamline the pizza ordering process. It's built with Node Express on the backend, and HTML, CSS, and JavaScript on the frontend. The application leverages RESTful APIs to perform CRUD operations, culminating in a dynamic and user-friendly interface.
